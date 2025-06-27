@@ -28,22 +28,19 @@ The **Cityscapes dataset** is ideal for training autonomous driving models becau
 - Below are some visualized results:
 
 
-  ![Example Segmentation](Sample1.png)
+  ![Example Segmentation](![Sample1](https://github.com/user-attachments/assets/bd3acecf-4570-4712-b8ff-75d58d8e5c7c)
+)
 
 
 
-   ![Example Segmentation](Sample2.png)
+   ![Example Segmentation](![Sample2](https://github.com/user-attachments/assets/e69b999f-3cd8-48a8-9261-024f4f26faef)
+)
 
   
 - The model accurately segmented **vehicles, roads, and pedestrians**, demonstrating its effectiveness in autonomous driving scenarios.
 
 ## Conclusion
 Fine-tuning **ResNet-50** on the **Cityscapes dataset** provided a robust segmentation model for autonomous driving applications. The model effectively learned urban scene segmentation, with **steady training improvements** until reaching a plateau. The final results showed **accurate segmentation outputs**, proving the effectiveness of transfer learning in this domain.
-
-## Future Work
-- Experiment with **larger models** (e.g., ResNet-101, Transformer-based architectures) for further improvements.
-- Implement **data augmentation** and **adaptive learning rate scheduling** to address loss stagnation.
-- Optimize the model for **real-time deployment** in autonomous vehicle systems.
 
 
 
